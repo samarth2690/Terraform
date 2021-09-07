@@ -31,7 +31,7 @@ resource "aws_security_group" "sg-test" {
 }
 
 resource "aws_instance" "jarService" {
-  ami = "ami-015954d5e5548d13b"
+  ami = "ami-040ba316fc6ab09df"
 
   instance_type   = "t2.micro"
   key_name        = "cdp-test"
