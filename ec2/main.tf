@@ -1,18 +1,3 @@
-variable "access_key" {
-}
-
-variable "secret_key" {
-}
-
-variable "region" {
-  default = "us-east-1"
-}
-
-variable "tag_name" {
-}
-
-
-
 provider "aws" {
   region     = var.region
   access_key = var.access_key
